@@ -1,0 +1,4 @@
+git init -> Đánh dấu folder được quản lí bởi Git, có tạo ra 1 file .git ẩn
+git add <file_name> -> Đưa file được chỉ định từ vùng Working Directory sang vùng Staging
+git add . -> Đưa tất cả file từ vùng Working Directory sang vùng Staging
+git commit -m “message” -> Đưa tất cả file từ vùng Staging sang vùng Repository

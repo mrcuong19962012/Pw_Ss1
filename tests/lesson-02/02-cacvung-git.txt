@@ -1,3 +1,25 @@
-file1 -> Repository
-file2 -> Working Directory
-file3 -> Working Directory
+a.    
+    file1 -> Local
+    file2 -> Local
+    file3 -> Local
+b.
+    file1 -> Working Directory
+    file2 -> Working Directory
+    file3 -> Working Directory
+c.
+    file1 -> Working Directory
+    file2 -> Working Directory
+    file3 -> Working Directory
+d.
+    file1 -> Staging
+    file2 -> Working Directory
+    file3 -> Working Directory
+e.
+    file1 -> Repository
+    file2 -> Working Directory
+    file3 -> Working Directory
+f.
+    file1 -> Repository
+    file2 -> Working Directory
+    file3 -> Working Directory
+

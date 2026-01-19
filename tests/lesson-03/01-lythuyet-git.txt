@@ -1,4 +1,4 @@
 git commit --amend -> Mở trình soạn thảo để thay đổi nội dung commit  (Áp dụng với Commit cuối cùng)
-git commit --amend-m”<message>”  -> Thực hiện thay đổi trực tiếp nội dung của commit (Áp dụng với Commit cuối cùng)
+git commit --amend -m”<message>”  -> Thực hiện thay đổi trực tiếp nội dung của commit (Áp dụng với Commit cuối cùng)
 git restore --staged <file> -> Thực hiện undo 1 file được chỉ định từ vùng Staging về vùng Working Directory
 git reset HEAD~1 -> Quay về commit trước đó và các file được commit sẽ undo về vùng Working Directory

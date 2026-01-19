@@ -7,8 +7,11 @@ console.log(sum);
 
 // 2---
 
-for (let i = 1; i <= 10; i++) {
-  console.log(`9 x ${i} = ${9 * i}`);
+for (let i = 2; i <= 9; i++) {
+  for (let y = 1; y <= 10; y++) {
+    console.log(`${y} x ${i} = ${y * i}`);
+  }
+  console.log(`\n`);
 }
 
 // 3---
@@ -87,5 +90,3 @@ for (let i = 0; i < salesTotal.length; i++) {
 }
 
 console.log(totalResult);
-
-

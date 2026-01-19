@@ -64,5 +64,4 @@ console.log(getTopStudents(arr, 90));
 function calculateInterest(principal, rate, years) {
   return principal + (principal * rate * years) / 100;
 }
-
 console.log(calculateInterest(100, 5, 2));

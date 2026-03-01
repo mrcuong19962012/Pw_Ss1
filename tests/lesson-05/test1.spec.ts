@@ -15,6 +15,8 @@ test("Register Page", async ({ page }) => {
   const dateOfBirth = page.locator("//input[@name='dob']");
   const profilePicture = page.locator("//input[contains(@id,'profile')]");
   const biography = page.locator("//textarea[contains(@id,'bi')]");
+  const registerButton = page.getByRole("button", { name: "Register" });
+  const firstRowOfTable = page.locator("//table[@id='userTable']/tbody/tr");
 
   await test.step("Navigate To Page", async () => {
     page.goto("https://material.playwrightvn.com/", { waitUntil: "load" });
@@ -74,5 +76,10 @@ test("Register Page", async ({ page }) => {
   await test.step("Input Biography", async () => {
     await biography.fill("Description");
     await expect(biography).toHaveValue(/Descri/);
+  });
+
+  await test.step("Click Button Register", async () => {
+    await registerButton.click();
+    expect(firstRowOfTable).toBeVisible();
   });
 });
